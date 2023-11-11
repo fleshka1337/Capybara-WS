@@ -1,0 +1,108 @@
+.experience-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 96px 80px;
+    background: var(--color-gray-50);
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.experience-section__left-orange{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.experience-section__middle-orange{
+    position: absolute;
+    bottom: 0;
+    right: 294px;
+}
+
+.experience-section__right-orange{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.experience-section__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px
+}
+
+.experience-section__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.experience-section__content{
+    display: grid;
+    gap: 0px 32px;
+    max-width: 980px;
+    grid-template-areas: 
+    "date-1 description-1"
+    "date-2 description-1"
+    "date-3 description-1"
+    ". description-1";
+}
+
+/* .experience-section__year-list{
+
+} */
+
+.experience-section__date-1{
+    grid-area: date-1;
+    padding: 16px 32px;
+    border-radius: 12px;
+    background-color: var(--color-white);
+}
+
+.experience-section__date-2{
+    grid-area: date-2;
+    padding: 16px 32px;
+    border-radius: 12px;
+    background-color: var(--color-white);
+}
+
+.experience-section__date-3{
+    grid-area: date-3;
+    padding: 16px 32px;
+    border-radius: 12px;
+    background-color: var(--color-white);
+}
+
+.experience-section__experience-card{
+    grid-area: description-1;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    background: var(--color-white);
+}
+
+.experience-section__card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.experience-section__features-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.experience-section__feature-description{
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
